@@ -1,0 +1,17 @@
+{
+  "name": "Polly",
+  "version": "1.0.0",
+  "description": "AWS Polly example with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "true-level": "rm -rf ./node_modules rm -rf ./package-lock.json ./.babel-cache; npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.2.1",
+    "aws-sdk": "^2.496.0"
+  }
+}
